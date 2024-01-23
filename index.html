@@ -266,14 +266,51 @@
 
           </div>
 
-          <ul class="project-list">
+<!-- qrcode  -->
+
+<div class="qrmain" id="texts" >
+  <div class="box">
+    <div class="qr-header">
+        <!-- <h1>Team FarooqiHubble</h1> -->
+        <h2>Generate QR Code</h2>
+        <input type="text" placeholder="Type your text or URL" id="qr-text">
+        <div>
+        <label for="sizes">Select Size:</label>
+        <select id="sizes">
+            <option value="100">100x100</option>
+            <option value="200">200x200</option>
+            <option value="300">300x300</option>
+            <option value="400">400x400</option>
+            <option value="500">500x500</option>
+            <option value="600">600x600</option>
+            <option value="700">700x700</option>
+            <option value="800">800x800</option>
+            <option value="900">900x900</option>
+            <option value="1000">1000x1000</option>
+        </select>
+    </div>
+    </div>
+    <div class="qr-body"></div>
+    <div class="qr-footer">
+        <a href="" id="generateBtn">Generate</a>
+        <a href="" id="downloadBtn" download="QR_Code.png">Download</a>
+    </div><br>
+    <div class="back">
+        <a href="https://mr-farooqi.github.io/official/">Go Back</a>
+    </div>
+</div>
+</div>
+
+          <!-- 789 -->
+
+          <ul class="project-list" id="hiden">
 
 
             <li class="project-item  active" data-filter-item data-category="own website">
-              <a href="https://mr-farooqi.github.io/QR-Code-Genrater/">
+              <a href="##">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
+                  <div class="project-item-icon-box" onclick="btns()">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
@@ -1139,4 +1176,13 @@
 
 </body>
 
+<script type="text/javascript">
+  function btns() {
+    // body...
+    // document.getElementsByTagName('hides').style.display ='none';
+    document.getElementById('hiden').style.display ='none';
+    document.getElementById('texts').style.display ='block';
+    // alert('hello')
+  }
+</script>
 </html>

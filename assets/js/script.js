@@ -161,19 +161,27 @@ for (let i = 0; i < navigationLinks.length; i++) {
 // qrcode
 
 
-function btns() {
+function openqr() {
   // body...
   // document.getElementsByTagName('hides').style.display ='none';
-  document.getElementById('hiden').style.display ='none';
-  document.getElementById('texts').style.display ='block';
+  document.getElementById('allList').style.display ='none';
+  document.getElementById('QrCode').style.display ='block';
   // alert('hello')
+}
+
+// tic tac game 
+function openTicTac(){
+  // boody
+  // alert('Hello ')
+  document.getElementById('allList').style.display ='none';
+  document.getElementById('TicTac').style.display ='block'
 }
 
 function back() {
   // body...
   // alert('hello')
-  document.getElementById('hiden').style.display = 'block';
-  document.getElementById('texts').style.display= 'none';
+  document.getElementById('allList').style.display = 'block';
+  document.getElementById('QrCode').style.display= 'none';
 }
 
 // open 

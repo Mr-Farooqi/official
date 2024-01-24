@@ -169,6 +169,13 @@ function btns() {
   // alert('hello')
 }
 
+function back() {
+  // body...
+  // alert('hello')
+  document.getElementById('forms').style.display = 'none';
+  document.getElementById('mains').style.display= 'block';
+}
+
 // open 
 
 const qrText = document.getElementById('qr-text');

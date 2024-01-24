@@ -172,8 +172,8 @@ function btns() {
 function back() {
   // body...
   // alert('hello')
-  document.getElementById('forms').style.display = 'none';
-  document.getElementById('mains').style.display= 'block';
+  document.getElementById('hiden').style.display = 'block';
+  document.getElementById('texts').style.display= 'none';
 }
 
 // open 

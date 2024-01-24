@@ -1898,10 +1898,19 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-block: 12px;
 }
 
-.qr-header input, select{
+.qr-header input {
   padding: 8px;
   border-radius: var(--border-radius);
   font-size: 18px;
+  color: rgb(216, 216, 216);
+  outline: none;
+  border: 2px solid var(--border-color);
+}
+.qr-header select{
+  padding: 8px;
+  border-radius: var(--border-radius);
+  font-size: 18px;
+  /* color: red; */
   outline: none;
   border: 2px solid var(--border-color);
 }

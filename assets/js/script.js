@@ -160,6 +160,17 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // qrcode
 
+
+function btns() {
+  // body...
+  // document.getElementsByTagName('hides').style.display ='none';
+  document.getElementById('hiden').style.display ='none';
+  document.getElementById('texts').style.display ='block';
+  // alert('hello')
+}
+
+// open 
+
 const qrText = document.getElementById('qr-text');
 const sizes = document.getElementById('sizes');
 const generateBtn = document.getElementById('generateBtn');
